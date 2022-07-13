@@ -3,7 +3,7 @@ const router = express.Router();
 const path = require('path');
 const spawn = require("child_process").spawn;
 
-const helpers = require('../lib/helpers');
+const helpers = require('../lib/helpers'); //no hay nada aun
 
 router.get('/api/prueba', async (req, res) => {
     //PARA GESTIONAR UNA API

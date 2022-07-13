@@ -16,7 +16,7 @@ app.engine('.hbs', exphbs.engine({  //con esto se configura el app.engine
     layoutDir: path.join(app.get('views'),'layouts'),
     partialsDir: path.join(app.get('views'),'partials'),
     extname: '.hbs',
-    helpers: require('./lib/handlebars') //no hay nada aun
+    helpers: require('./lib/handlebars') 
 }));
 app.set('view engine','.hbs'); //PAra utilizar el app.engine
 
